@@ -1,8 +1,6 @@
 // playsmf.cpp
 //
-// Simple program to test the MidiFileIn class by reading and playing
-// a single track from a given Standard MIDI file.
-//
+// 
 // by Gary Scavone, 2003.
 
 #include "MidiFileIn.h"
