@@ -79,7 +79,8 @@ int main( int argc, char *argv[] )
     std::cout << "  - tracks = " << midiFile.getNumberOfTracks() << "\n";
     std::cout << "  - seconds / ticks = " << midiFile.getTickSeconds() << "\n";
 
-    unsigned int track = (unsigned int) atoi( argv[2] );
+//HERE
+    unsigned int track = (unsigned int) atoi( argv[1] );
     if ( midiFile.getNumberOfTracks() <= track ) {
       std::cout << "\nInvalid track number ... playing track 0.\n";
       track = 0;
